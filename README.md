@@ -6,9 +6,13 @@
 
 ## 安装步骤：
 1、您需要将我们的Project 11文件夹克隆至本地（或直接下载）
+
 2、您需要配置您的环境，以便运行我们的代码：
+
 pip install openai
+
 pip install sparkai
+
 3、配置好环境以后，请运行Project 11 agent arena2.0，这是我们最新的版本。
 
 ## 使用方法
@@ -16,24 +20,44 @@ pip install sparkai
 
 ## 代码架构
 Project 11
+
 ├── Main Script
+
 │   ├── run_debate()
+
 │   └── __main__
+
 ├── Imports
+
 │   ├── time
+
 │   ├── os
+
 │   ├── requests
+
 │   ├── openai
+
 │   ├── ChatSparkLLM
+
 │   ├── ChunkPrintHandler
+
 │   └── ChatMessage
+
 ├── SparkAI API Configuration
+
 │   ├── SPARKAI_APP_ID
+
 │   ├── SPARKAI_API_SECRET
+
 │   ├── SPARKAI_API_KEY
+
 │   ├── SPARKAI_URL
+
 │   ├── SPARKAI_DOMAIN
+
 │   └── spark (ChatSparkLLM instance)
+
 └── OpenAI API Configuration
+
     └── get_openai_client(api_key, base_url)
 
