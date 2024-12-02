@@ -14,6 +14,9 @@
 
     pip install sparkai
 
+如果配置后依旧无法运行我们的代码，请尝试：
+ pip install --upgrade spark_ai_python
+
 3、配置好环境以后，请运行Project 11 agent arena2.0，这是我们最新的版本。
 
 ## 使用方法
